@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTY Academy - Mathematics Enrichment Programs</title>
+    <meta name="description" content="MTY Academy offers comprehensive mathematics enrichment programs for grades 5-12, including regular classes, self-paced options, and AMC contest preparation.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-brand">
+                    <img src="attached_assets/mty_top-removebg-preview_1751644676336.png" alt="MTY Academy" class="logo">
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="nav-menu">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#programs" class="nav-link">Programs</a>
+                    <a href="#registration" class="nav-link">Registration</a>
+                    <a href="#faculty" class="nav-link">Faculty</a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </nav>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#home" class="mobile-nav-link">Home</a>
+            <a href="#programs" class="mobile-nav-link">Programs</a>
+            <a href="#registration" class="mobile-nav-link">Registration</a>
+            <a href="#faculty" class="mobile-nav-link">Faculty</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <!-- Hero Section -->
+            <div class="hero">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <img src="attached_assets/mty_top-removebg-preview_1751644676336.png" alt="MTY Academy" class="hero-logo">
+                    <h1 class="hero-title">Excellence in Mathematics Education</h1>
+                    <p class="hero-subtitle">
+                        Comprehensive enrichment programs for grades 5-12, designed to inspire mathematical thinking and academic excellence
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#programs" class="btn btn-primary">Explore Classes</a>
+                        <a href="#registration" class="btn btn-outline">Register Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- About Section -->
+            <div class="about-section">
+                <div class="container">
+                    <div class="about-content">
+                        <h2 class="section-title">About MTY Academy</h2>
+                        <p class="about-text">
+                            At MTY Academy, we are dedicated to inspiring a lifelong passion for mathematics in our students. 
+                            Through our comprehensive enrichment programs, we strive to create a supportive and engaging learning environment 
+                            where students from 5th grade to high school can build a strong mathematical foundation. Our goal is to help students 
+                            excel academically, develop critical thinking skills, and foster a love for the subject.
+                        </p>
+                        
+                        <div class="features-grid">
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                                        <circle cx="9" cy="7" r="4"/>
+                                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                                        <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                                    </svg>
+                                </div>
+                                <h3 class="feature-title">Expert Math Instruction</h3>
+                                <p class="feature-text">Meticulously designed course materials by Dr. Gu to build strong mathematical foundations</p>
+                            </div>
+                            
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                                    </svg>
+                                </div>
+                                <h3 class="feature-title">Flexible Learning Options</h3>
+                                <p class="feature-text">Regular enrichment classes, self-paced options, and AMC contest preparation</p>
+                            </div>
+                            
+                            <div class="feature-card">
+                                <div class="feature-icon">
+                                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/>
+                                        <path d="M14 9h1.5a2.5 2.5 0 0 0 0-5H14"/>
+                                        <path d="M6 9v8a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V9"/>
+                                        <path d="M6 9h12"/>
+                                    </svg>
+                                </div>
+                                <h3 class="feature-title">Proven Results</h3>
+                                <p class="feature-text">Helping students build confidence and excel in mathematics from grades 5-12</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Programs Preview Section -->
+            <div class="programs-preview">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title">Our Math Programs</h2>
+                        <p class="section-subtitle">
+                            Discover our comprehensive math enrichment programs designed to inspire and challenge students from grades 5-12
+                        </p>
+                    </div>
+                    
+                    <div class="programs-grid">
+                        <div class="program-card">
+                            <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=300" 
+                                 alt="Regular math classes" class="program-image">
+                            <div class="program-content">
+                                <h3 class="program-title">Regular Enrichment Classes</h3>
+                                <p class="program-description">Structured math programs for grades 5-12 during Fall, Spring, and Summer semesters</p>
+                                <div class="program-footer">
+                                    <span class="program-grade">Grades 5-12</span>
+                                    <a href="#programs" class="program-link">Learn More →</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="program-card">
+                            <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=300" 
+                                 alt="Self-paced learning" class="program-image">
+                            <div class="program-content">
+                                <h3 class="program-title">Self-Paced Classes</h3>
+                                <p class="program-description">Flexible learning option for students who need personalized scheduling and pace</p>
+                                <div class="program-footer">
+                                    <span class="program-grade">All Grades</span>
+                                    <a href="#programs" class="program-link">Learn More →</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="program-card">
+                            <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=300" 
+                                 alt="AMC contest preparation" class="program-image">
+                            <div class="program-content">
+                                <h3 class="program-title">AMC Contest Prep</h3>
+                                <p class="program-description">Specialized preparation for AMC 8 and AMC 10 mathematics competitions</p>
+                                <div class="program-footer">
+                                    <span class="program-grade">Grade 8 & 10</span>
+                                    <a href="#programs" class="program-link">Learn More →</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="programs-cta">
+                        <a href="#programs" class="btn btn-primary">View All Programs</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Programs Section -->
+        <section id="programs" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Math Programs</h2>
+                    <p class="section-subtitle">
+                        Comprehensive mathematics enrichment programs designed to inspire and challenge students from grades 5-12
+                    </p>
+                </div>
+
+                <!-- Regular Classes -->
+                <div class="program-detail">
+                    <div class="program-detail-header">
+                        <h3 class="program-detail-title">Regular Enrichment Classes</h3>
+                        <p class="program-detail-description">
+                            Our regular math classes provide structured learning during Fall, Spring, and Summer semesters. 
+                            Each course is carefully designed to build strong mathematical foundations while challenging students to excel.
+                        </p>
+                    </div>
+
+                    <div class="class-grid">
+                        <div class="class-card">
+                            <div class="class-header">
+                                <h4 class="class-title">Grade 5 Summer - PreAlgebra Foundations</h4>
+                                <span class="class-grade">Grade 5</span>
+                            </div>
+                            <p class="class-description">Number line, negative integers, arithmetic operations, divisibility rules, and introduction to linear equations</p>
+                            <div class="class-actions">
+                                <a href="attached_assets/05Summer_Syllabus_1751930102781.pdf" class="btn btn-sm btn-outline" target="_blank">
+                                    Syllabus
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="class-card">
+                            <div class="class-header">
+                                <h4 class="class-title">Grade 5 Fall - Algebra with Fractions</h4>
+                                <span class="class-grade">Grade 5</span>
+                            </div>
+                            <p class="class-description">Arithmetic operations on fractions, linear equations, word problems, GCF/LCM, and linear inequalities</p>
+                            <div class="class-actions">
+                                <a href="attached_assets/05Fall_Syllabus_1751930092896.pdf" class="btn btn-sm btn-outline" target="_blank">
+                                    Syllabus
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="class-card">
+                            <div class="class-header">
+                                <h4 class="class-title">Grade 5 Spring - Coordinate Geometry</h4>
+                                <span class="class-grade">Grade 5</span>
+                            </div>
+                            <p class="class-description">Percentage, ratio, proportion, Cartesian coordinates, distance formula, and triangle problems on the plane</p>
+                            <div class="class-actions">
+                                <a href="attached_assets/05Spring_Syllabus_1751930092897.pdf" class="btn btn-sm btn-outline" target="_blank">
+                                    Syllabus
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="class-card">
+                            <div class="class-header">
+                                <h4 class="class-title">Grade 6 Fall - Linear Systems</h4>
+                                <span class="class-grade">Grade 6</span>
+                            </div>
+                            <p class="class-description">Slope of lines, linear equations in two variables, systems of equations, substitution and elimination methods</p>
+                            <div class="class-actions">
+                                <a href="attached_assets/06Fall_Syllabus_1751930114725.pdf" class="btn btn-sm btn-outline" target="_blank">
+                                    Syllabus
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="class-card">
+                            <div class="class-header">
+                                <h4 class="class-title">Grade 6 Spring - Polynomials & Absolute Values</h4>
+                                <span class="class-grade">Grade 6</span>
+                            </div>
+                            <p class="class-description">Linear inequalities, absolute values, polynomial operations, and factoring techniques</p>
+                            <div class="class-actions">
+                                <a href="attached_assets/06Spring_Syllabus_1751930114725.pdf" class="btn btn-sm btn-outline" target="_blank">
+                                    Syllabus
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="class-card">
+                            <div class="class-header">
+                                <h4 class="class-title">Grade 6 Summer - Geometry Foundations</h4>
+                                <span class="class-grade">Grade 6</span>
+                            </div>
+                            <p class="class-description">Lines, angles, triangles, special right triangles, Pythagorean theorem, circles, and sectors</p>
+                            <div class="class-actions">
+                                <a href="attached_assets/06Summer_Syllabus_1751930114726.pdf" class="btn btn-sm btn-outline" target="_blank">
+                                    Syllabus
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="class-card">
+                            <div class="class-header">
+                                <h4 class="class-title">Grade 7 Fall - Quadratic Equations</h4>
+                                <span class="class-grade">Grade 7</span>
+                            </div>
+                            <p class="class-description">Factoring polynomials, solving quadratic equations by factoring, completing the square, and quadratic formula</p>
+                            <div class="class-actions">
+                                <a href="attached_assets/07Fall_Syllabus_1751930114726.pdf" class="btn btn-sm btn-outline" target="_blank">
+                                    Syllabus
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="class-card">
+                            <div class="class-header">
+                                <h4 class="class-title">Grade 7 Spring - Rational Expressions & Radicals</h4>
+                                <span class="class-grade">Grade 7</span>
+                            </div>
+                            <p class="class-description">Operations on rational expressions, radical equations, rational exponents, and complex numbers</p>
+                            <div class="class-actions">
+                                <a href="attached_assets/07Spring_Syllabus_1751930114726.pdf" class="btn btn-sm btn-outline" target="_blank">
+                                    Syllabus
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="class-card">
+                            <div class="class-header">
+                                <h4 class="class-title">Grade 7 Summer - Geometry Proofs</h4>
+                                <span class="class-grade">Grade 7</span>
+                            </div>
+                            <p class="class-description">Triangle proofs, congruent triangles, similar triangles, parallelograms, and polygon theorems</p>
+                            <div class="class-actions">
+                                <a href="attached_assets/07Summer_Syllabus_1751930114728.pdf" class="btn btn-sm btn-outline" target="_blank">
+                                    Syllabus
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="class-card">
+                            <div class="class-header">
+                                <h4 class="class-title">Grade 8 Fall - Advanced Functions</h4>
+                                <span class="class-grade">Grade 8</span>
+                            </div>
+                            <p class="class-description">Complex numbers, linear/quadratic functions, polynomial functions, and the rational zero theorem</p>
+                            <div class="class-actions">
+                                <a href="attached_assets/08Fall_Syllabus_1751930114728.pdf" class="btn btn-sm btn-outline" target="_blank">
+                                    Syllabus
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="class-card">
+                            <div class="class-header">
+                                <h4 class="class-title">Grade 8 Spring - Exponential & Logarithmic Functions</h4>
+                                <span class="class-grade">Grade 8</span>
+                            </div>
+                            <p class="class-description">Rational functions, inverse functions, exponential equations, logarithmic functions, and applications</p>
+                            <div class="class-actions">
+                                <a href="attached_assets/08Spring_Syllabus_1751930114728.pdf" class="btn btn-sm btn-outline" target="_blank">
+                                    Syllabus
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="class-card">
+                            <div class="class-header">
+                                <h4 class="class-title">Grade 8 Summer - Conic Sections</h4>
+                                <span class="class-grade">Grade 8</span>
+                            </div>
+                            <p class="class-description">Circles, ellipses, parabolas, hyperbolas, mathematical induction, and proof by contradiction</p>
+                            <div class="class-actions">
+                                <a href="attached_assets/08Summer_Syllabus_1751930134788.pdf" class="btn btn-sm btn-outline" target="_blank">
+                                    Syllabus
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="class-card">
+                            <div class="class-header">
+                                <h4 class="class-title">Grade 9 Fall - PreCalculus Trigonometry</h4>
+                                <span class="class-grade">Grade 9</span>
+                            </div>
+                            <p class="class-description">Angles in standard position, trigonometric functions, unit circle, inverse trig functions, and trigonometric identities</p>
+                            <div class="class-actions">
+                                <a href="attached_assets/09Fall_Syllabus_1751930134788.pdf" class="btn btn-sm btn-outline" target="_blank">
+                                    Syllabus
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="class-card">
+                            <div class="class-header">
+                                <h4 class="class-title">Grade 9 Spring - Advanced PreCalculus</h4>
+                                <span class="class-grade">Grade 9</span>
+                            </div>
+                            <p class="class-description">Trigonometric equations, sum/difference formulas, Law of Sines/Cosines, sequences, and mathematical induction</p>
+                            <div class="class-actions">
+                                <a href="attached_assets/09Spring_Syllabus_1751930134789.pdf" class="btn btn-sm btn-outline" target="_blank">
+                                    Syllabus
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="class-card">
+                            <div class="class-header">
+                                <h4 class="class-title">Grade 10 Fall - Calculus I</h4>
+                                <span class="class-grade">Grade 10</span>
+                            </div>
+                            <p class="class-description">Limits, continuous functions, derivatives, chain rule, optimization problems, and curve sketching</p>
+                            <div class="class-actions">
+                                <a href="attached_assets/10Fall_Syllabus_1751930134789.pdf" class="btn btn-sm btn-outline" target="_blank">
+                                    Syllabus
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="class-card">
+                            <div class="class-header">
+                                <h4 class="class-title">Grade 10 Spring - Calculus II</h4>
+                                <span class="class-grade">Grade 10</span>
+                            </div>
+                            <p class="class-description">Mean value theorem, implicit differentiation, L'Hôpital's rule, antiderivatives, definite integrals, and Fundamental Theorem</p>
+                            <div class="class-actions">
+                                <a href="attached_assets/10Spring_Syllabus_1751930134789.pdf" class="btn btn-sm btn-outline" target="_blank">
+                                    Syllabus
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="class-card">
+                            <div class="class-header">
+                                <h4 class="class-title">Grade 10 Summer - Advanced Calculus</h4>
+                                <span class="class-grade">Grade 10+</span>
+                            </div>
+                            <p class="class-description">Riemann sums, volumes by rotation, arc length, improper integrals, infinite sequences, and series convergence tests</p>
+                            <div class="class-actions">
+                                <a href="attached_assets/10Summer_Syllabus_1751930134789.pdf" class="btn btn-sm btn-outline" target="_blank">
+                                    Syllabus
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Self-Paced Classes -->
+                <div class="program-detail">
+                    <div class="program-detail-header">
+                        <h3 class="program-detail-title">Self-Paced Classes</h3>
+                        <p class="program-detail-description">
+                            Perfect for students who need flexibility in their learning schedule. Our self-paced programs allow students 
+                            to progress at their own speed while maintaining high academic standards.
+                        </p>
+                    </div>
+
+                    <div class="pricing-grid">
+                        <div class="pricing-card">
+                            <h4 class="pricing-title">Base Package</h4>
+                            <div class="pricing-price">$80</div>
+                            <ul class="pricing-features">
+                                <li>Self-paced learning materials</li>
+                                <li>Written assignments and exercises</li>
+                                <li>Progress tracking</li>
+                                <li>Basic support</li>
+                            </ul>
+                        </div>
+
+                        <div class="pricing-card pricing-card-featured">
+                            <h4 class="pricing-title">Video Package</h4>
+                            <div class="pricing-price">$170</div>
+                            <div class="pricing-note">Base + $90</div>
+                            <ul class="pricing-features">
+                                <li>Everything in Base Package</li>
+                                <li>Video lectures and tutorials</li>
+                                <li>Interactive demonstrations</li>
+                                <li>Enhanced learning experience</li>
+                            </ul>
+                        </div>
+
+                        <div class="pricing-card">
+                            <h4 class="pricing-title">Tutoring Package</h4>
+                            <div class="pricing-price">$320</div>
+                            <div class="pricing-note">Base + $240</div>
+                            <ul class="pricing-features">
+                                <li>Everything in Base Package</li>
+                                <li>One-on-one tutoring sessions</li>
+                                <li>Personalized guidance</li>
+                                <li>Direct instructor support</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AMC Contest Prep -->
+                <div class="program-detail">
+                    <div class="program-detail-header">
+                        <h3 class="program-detail-title">AMC Contest Preparation</h3>
+                        <p class="program-detail-description">
+                            Specialized preparation for AMC 8 and AMC 10 mathematics competitions. Our contest prep courses 
+                            focus on problem-solving strategies and competition techniques.
+                        </p>
+                    </div>
+
+                    <div class="amc-grid">
+                        <div class="amc-card">
+                            <h4 class="amc-title">AMC 8 Preparation</h4>
+                            <p class="amc-description">
+                                Comprehensive preparation for the AMC 8 competition, focusing on middle school mathematics topics 
+                                and problem-solving strategies.
+                            </p>
+                            <div class="amc-actions">
+                                <a href="attached_assets/AMC_8_Syllabus_1751584047218.pdf" class="btn btn-outline" target="_blank">
+                                    View Syllabus
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="amc-card">
+                            <h4 class="amc-title">AMC 10 Preparation</h4>
+                            <p class="amc-description">
+                                Advanced preparation for the AMC 10 competition, covering high school mathematics topics 
+                                and advanced problem-solving techniques.
+                            </p>
+                            <div class="amc-actions">
+                                <a href="attached_assets/AMC_10_Syllabus_1751584047218.pdf" class="btn btn-outline" target="_blank">
+                                    View Syllabus
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Registration Section -->
+        <section id="registration" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Registration</h2>
+                    <p class="section-subtitle">
+                        Join MTY Academy's comprehensive mathematics enrichment programs
+                    </p>
+                </div>
+
+                <div class="registration-content">
+                    <!-- Course Map -->
+                    <div class="course-map">
+                        <h3 class="course-map-title">Course Map</h3>
+                        <div class="course-map-container">
+                            <embed src="attached_assets/course_map_1751583311315.pdf" type="application/pdf" class="course-map-pdf">
+                        </div>
+                    </div>
+
+                    <!-- Available Programs -->
+                    <div class="registration-programs">
+                        <h3 class="registration-programs-title">Available Programs</h3>
+                        <p class="registration-programs-description">
+                            Choose from our comprehensive mathematics curriculum designed for students in grades 5-12. 
+                            Review the course descriptions below to find the program that matches your current skill level.
+                        </p>
+
+                        <div class="class-grid">
+                            <div class="class-card">
+                                <div class="class-header">
+                                    <h4 class="class-title">Grade 5 Summer - PreAlgebra Foundations</h4>
+                                    <span class="class-grade">Grade 5</span>
+                                </div>
+                                <p class="class-description">Number line, negative integers, arithmetic operations, divisibility rules, and introduction to linear equations</p>
+                                <div class="class-actions">
+                                    <a href="attached_assets/05Summer_Evaluation_1751930615095.pdf" class="btn btn-sm btn-outline" target="_blank">
+                                        Sample Evaluation
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="class-card">
+                                <div class="class-header">
+                                    <h4 class="class-title">Grade 5 Fall - Algebra with Fractions</h4>
+                                    <span class="class-grade">Grade 5</span>
+                                </div>
+                                <p class="class-description">Arithmetic operations on fractions, linear equations, word problems, GCF/LCM, and linear inequalities</p>
+                                <div class="class-actions">
+                                    <a href="attached_assets/05Fall_Evaluation_1751930615094.pdf" class="btn btn-sm btn-outline" target="_blank">
+                                        Sample Evaluation
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="class-card">
+                                <div class="class-header">
+                                    <h4 class="class-title">Grade 5 Spring - Coordinate Geometry</h4>
+                                    <span class="class-grade">Grade 5</span>
+                                </div>
+                                <p class="class-description">Percentage, ratio, proportion, Cartesian coordinates, distance formula, and triangle problems on the plane</p>
+                                <div class="class-actions">
+                                    <a href="attached_assets/05Spring_Evaluation_1751930615094.pdf" class="btn btn-sm btn-outline" target="_blank">
+                                        Sample Evaluation
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="class-card">
+                                <div class="class-header">
+                                    <h4 class="class-title">Grade 6 Fall - Linear Systems</h4>
+                                    <span class="class-grade">Grade 6</span>
+                                </div>
+                                <p class="class-description">Slope of lines, linear equations in two variables, systems of equations, substitution and elimination methods</p>
+                                <div class="class-actions">
+                                    <a href="attached_assets/06Fall_Evaluation_1751930615098.pdf" class="btn btn-sm btn-outline" target="_blank">
+                                        Sample Evaluation
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="class-card">
+                                <div class="class-header">
+                                    <h4 class="class-title">Grade 6 Spring - Polynomials & Absolute Values</h4>
+                                    <span class="class-grade">Grade 6</span>
+                                </div>
+                                <p class="class-description">Linear inequalities, absolute values, polynomial operations, and factoring techniques</p>
+                                <div class="class-actions">
+                                    <a href="attached_assets/06Spring_Evaluation_1751930615098.pdf" class="btn btn-sm btn-outline" target="_blank">
+                                        Sample Evaluation
+                                    </a>
+                                </div>
+                            </div>
+
+
+
+                            <div class="class-card">
+                                <div class="class-header">
+                                    <h4 class="class-title">Grade 7 Fall - Quadratic Equations</h4>
+                                    <span class="class-grade">Grade 7</span>
+                                </div>
+                                <p class="class-description">Factoring polynomials, solving quadratic equations by factoring, completing the square, and quadratic formula</p>
+                                <div class="class-actions">
+                                    <a href="attached_assets/07Fall_Evaluation_1751930615099.pdf" class="btn btn-sm btn-outline" target="_blank">
+                                        Sample Evaluation
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="class-card">
+                                <div class="class-header">
+                                    <h4 class="class-title">Grade 7 Spring - Rational Expressions & Radicals</h4>
+                                    <span class="class-grade">Grade 7</span>
+                                </div>
+                                <p class="class-description">Operations on rational expressions, radical equations, rational exponents, and complex numbers</p>
+                                <div class="class-actions">
+                                    <a href="attached_assets/07Spring_Evaluation_1751930615099.pdf" class="btn btn-sm btn-outline" target="_blank">
+                                        Sample Evaluation
+                                    </a>
+                                </div>
+                            </div>
+
+
+
+                            <div class="class-card">
+                                <div class="class-header">
+                                    <h4 class="class-title">Grade 8 Fall - Advanced Functions</h4>
+                                    <span class="class-grade">Grade 8</span>
+                                </div>
+                                <p class="class-description">Complex numbers, linear/quadratic functions, polynomial functions, and the rational zero theorem</p>
+                                <div class="class-actions">
+                                    <a href="attached_assets/08Fall_Evaluation_1751930615099.pdf" class="btn btn-sm btn-outline" target="_blank">
+                                        Sample Evaluation
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="class-card">
+                                <div class="class-header">
+                                    <h4 class="class-title">Grade 8 Spring - Exponential & Logarithmic Functions</h4>
+                                    <span class="class-grade">Grade 8</span>
+                                </div>
+                                <p class="class-description">Rational functions, inverse functions, exponential equations, logarithmic functions, and applications</p>
+                                <div class="class-actions">
+                                    <a href="attached_assets/08Spring_Evaluation_1751930615099.pdf" class="btn btn-sm btn-outline" target="_blank">
+                                        Sample Evaluation
+                                    </a>
+                                </div>
+                            </div>
+
+
+
+                            <div class="class-card">
+                                <div class="class-header">
+                                    <h4 class="class-title">Grade 9 Fall - PreCalculus Trigonometry</h4>
+                                    <span class="class-grade">Grade 9</span>
+                                </div>
+                                <p class="class-description">Angles in standard position, trigonometric functions, unit circle, inverse trig functions, and trigonometric identities</p>
+                                <div class="class-actions">
+                                    <a href="attached_assets/09Fall_Evaluation_1751930615100.pdf" class="btn btn-sm btn-outline" target="_blank">
+                                        Sample Evaluation
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="class-card">
+                                <div class="class-header">
+                                    <h4 class="class-title">Grade 9 Spring - Advanced PreCalculus</h4>
+                                    <span class="class-grade">Grade 9</span>
+                                </div>
+                                <p class="class-description">Trigonometric equations, sum/difference formulas, Law of Sines/Cosines, sequences, and mathematical induction</p>
+                                <div class="class-actions">
+                                    <a href="attached_assets/09Spring_Evaluation_1751930615100.pdf" class="btn btn-sm btn-outline" target="_blank">
+                                        Sample Evaluation
+                                    </a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <!-- Registration Information -->
+                    <div class="registration-info">
+                        <h3 class="registration-info-title">Registration Process</h3>
+                        <div class="registration-steps">
+                            <div class="step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h4>Take Placement Evaluation</h4>
+                                    <p>Complete our placement evaluation to determine the appropriate class level</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h4>Schedule Consultation</h4>
+                                    <p>Schedule a consultation with Dr. Gu at (512) 589-3349</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h4>Complete Registration</h4>
+                                    <p>Submit registration through our Google Classroom system</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Self-Paced Registration -->
+                    <div class="self-paced-registration">
+                        <h3 class="self-paced-title">Self-Paced Program Registration</h3>
+                        <p class="self-paced-description">
+                            Our self-paced programs offer flexible learning options for students who need personalized scheduling. 
+                            Choose from three different packages based on your learning preferences and support needs.
+                        </p>
+                        
+                        <div class="self-paced-packages">
+                            <div class="package-card">
+                                <h4 class="package-title">Base Package - $80</h4>
+                                <ul class="package-features">
+                                    <li>Self-paced learning materials</li>
+                                    <li>Written assignments and exercises</li>
+                                    <li>Progress tracking</li>
+                                    <li>Basic email support</li>
+                                </ul>
+                            </div>
+
+                            <div class="package-card package-featured">
+                                <h4 class="package-title">Video Package - $170</h4>
+                                <ul class="package-features">
+                                    <li>Everything in Base Package</li>
+                                    <li>Video lectures and tutorials</li>
+                                    <li>Interactive demonstrations</li>
+                                    <li>Enhanced learning experience</li>
+                                </ul>
+                            </div>
+
+                            <div class="package-card">
+                                <h4 class="package-title">Tutoring Package - $320</h4>
+                                <ul class="package-features">
+                                    <li>Everything in Base Package</li>
+                                    <li>One-on-one tutoring sessions</li>
+                                    <li>Personalized guidance</li>
+                                    <li>Direct instructor support</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="registration-contact">
+                        <h3 class="contact-title">Contact Information</h3>
+                        <div class="contact-info">
+                            <p><strong>Phone:</strong> (512) 589-3349</p>
+                            <p><strong>Email:</strong> wg04txstate@gmail.com</p>
+                            <p><strong>Contact Person:</strong> Dr. Gu</p>
+                        </div>
+                        <p class="registration-note">
+                            <em>Registration information last updated November 4, 2024</em>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Faculty Section -->
+        <section id="faculty" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Faculty</h2>
+                    <p class="section-subtitle">
+                        Meet our dedicated team of mathematics educators committed to student success
+                    </p>
+                </div>
+
+                <div class="faculty-grid">
+                    <div class="faculty-card">
+                        <div class="faculty-icon">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                                <circle cx="12" cy="7" r="4"/>
+                            </svg>
+                        </div>
+                        <div class="faculty-content">
+                            <h3 class="faculty-name">Dr. Weizhen Gu</h3>
+                            <p class="faculty-title">Founder & Lead Instructor</p>
+                            <p class="faculty-bio">
+                                Dr. Gu is the founder of MTY Academy and brings extensive experience in mathematics education. 
+                                With a passion for inspiring young minds, Dr. Gu has designed all course materials to provide 
+                                comprehensive and engaging math instruction for students from grades 5-12.
+                            </p>
+                            <div class="faculty-contact">
+                                <p><strong>Phone:</strong> (512) 589-3349</p>
+                                <p><strong>Email:</strong> wg04txstate@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faculty-card">
+                        <div class="faculty-icon">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                                <circle cx="12" cy="7" r="4"/>
+                            </svg>
+                        </div>
+                        <div class="faculty-content">
+                            <h3 class="faculty-name">Dr. May Wang</h3>
+                            <p class="faculty-title">Senior Mathematics Instructor</p>
+                            <p class="faculty-bio">
+                                Dr. Wang specializes in advanced mathematics education and contest preparation. 
+                                With years of experience in competitive mathematics, she leads our AMC preparation programs 
+                                and helps students develop advanced problem-solving skills essential for mathematical competitions.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="faculty-card">
+                        <div class="faculty-icon">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                                <circle cx="12" cy="7" r="4"/>
+                            </svg>
+                        </div>
+                        <div class="faculty-content">
+                            <h3 class="faculty-name">Mrs. Joyce Cen</h3>
+                            <p class="faculty-title">Mathematics Instructor</p>
+                            <p class="faculty-bio">
+                                Mrs. Cen brings a warm and encouraging approach to mathematics education. 
+                                She specializes in working with younger students and helps build strong foundational skills 
+                                that prepare students for advanced mathematical concepts in their academic journey.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <div class="footer-logo">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                            </svg>
+                        </div>
+                        <span class="footer-brand-name">MTY Academy</span>
+                    </div>
+                    <p class="footer-description">
+                        Dedicated to inspiring a lifelong passion for mathematics through comprehensive enrichment programs for grades 5-12.
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#registration">Registration</a></li>
+                        <li><a href="#faculty">Faculty</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Math Programs</h4>
+                    <ul class="footer-links">
+                        <li><a href="#programs">Regular Enrichment Classes</a></li>
+                        <li><a href="#programs">Self-Paced Classes</a></li>
+                        <li><a href="#programs">AMC 8 Prep</a></li>
+                        <li><a href="#programs">AMC 10 Prep</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Contact</h4>
+                    <ul class="footer-contact">
+                        <li>Phone: (512) 589-3349</li>
+                        <li>Email: wg04txstate@gmail.com</li>
+                        <li>Dr. Gu - MTY Academy</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2024 MTY Academy. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
